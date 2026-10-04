@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+outputs/*
+!outputs/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+third_party/IDM-VTON/
+HF_HOME/
+.cache/
+*.safetensors
+*.ckpt
+*.pth
+*.onnx

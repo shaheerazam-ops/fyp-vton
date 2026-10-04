@@ -1,0 +1,30 @@
+# FiT-Layer API
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.9,<3
+python-multipart>=0.0.9,<1
+
+# Database / infra
+sqlalchemy>=2.0,<3
+psycopg2-binary>=2.9,<3
+boto3>=1.35,<2
+redis>=5,<6
+
+# Image / scientific stack
+Pillow>=10.4
+numpy>=1.26
+scipy>=1.13
+
+# ML stack
+# PyTorch 2.6+ has Python 3.13 support. Install the appropriate CUDA/CPU
+# wheel separately when you create the environment; do NOT pin the old 2.4.1.
+torch>=2.6,<3
+torchvision>=0.21,<1
+transformers>=4.44,<5
+diffusers>=0.30,<1
+accelerate>=0.34,<2
+huggingface_hub>=0.24,<2
+safetensors>=0.4,<1
+
+# Dev / tests
+pytest>=8,<10
