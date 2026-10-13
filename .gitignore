@@ -14,3 +14,7 @@ HF_HOME/
 *.ckpt
 *.pth
 *.onnx
+
+Frontend/node_modules/
+Frontend/.vite/
+Frontend/dist/
